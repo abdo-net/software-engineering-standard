@@ -1,0 +1,23 @@
+# Software Engineering Standard — Git Ignore
+# Repository configuration per Phase 2 (§10, FR-17)
+
+# Editor artifacts
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Generated artifacts that are reproducible from authoritative sources
+# Per §11.1: Generated artifacts MUST be reproducible; they need not be
+# committed if they can be regenerated. Uncomment when generation tooling exists.
+# standard/dependency-graph.md
+# standard/traceability-graph.md
