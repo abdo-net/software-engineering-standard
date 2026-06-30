@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/
 
 ## [0.4.0] — 2026-06-30
 
+### Phase 3 — Define Engineering Lifecycle (COMPLETED)
+
+- Created `docs/engineering-lifecycle.md` — Full lifecycle specification for 11 phases with 9 mandated fields per phase (objectives, inputs, activities, outputs, evidence, verification, tools, mistakes, references). [Ref: §12.1, §12.2, §12.3]
+- Created `docs/discovery-specification.md` — Full specification for 25 mandated discovery activities across 7 layers with 9 mandated fields per activity. [Ref: §25.3, §25.4]
+- Created `docs/competing-approaches.md` — Presentation and context-binding of 4 documented approach tensions per §12.4 and §30.4. [Ref: §12.4, §30.4, PR-12, FR-12]
+- Created `docs/mission-specification.md` — Full Mission Model specification with 8 mandatory elements and 6 normative rules (MIS-1..MIS-6). [Ref: §32.2, §32.3]
+- Created `docs/state-machine-specification.md` — Full specification of 9 engineering states with 4 mandatory elements per state and 5 normative rules (STA-1..STA-5). [Ref: §33.2, §33.3, §33.4]
+- Created `docs/operation-specification.md` — Full specification of 10 engineering operations with 4 mandatory elements per operation and 4 normative rules (OPS-1..OPS-4). [Ref: §34.2, §34.3, §34.4]
+
 ### Phase 2 — Repository Foundation (COMPLETED)
 
 - Created the `software-engineering-standard` repository.
@@ -21,37 +30,27 @@ and this project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/
   - `standard/dependency-graph.md` (§45)
   - `standard/traceability-graph.md` (§48)
 - Added repository metadata: README.md, LICENSE, VERSION, CHANGELOG.md, .gitignore.
-- **Completed Phase 2 governance foundation:**
-  - `standard/repository-constitution.md` — Repository purpose, authority hierarchy, regions, document precedence, modification rules, artifact ownership, frozen areas, generated artifacts policy (§10, §11, §17, §18, §40).
-  - `standard/repository-rules.md` — Naming conventions, directory ownership, immutability rules, generated file protection, authority boundaries, version control rules, extension rules (§10, §11, §17, §18, §19, §43, §49).
-  - `standard/artifact-classification.md` — Official classification system: Authoritative, Derived, Generated, Reference, Template, Example (§11.1, §10.3, §10.4).
-  - `standard/artifact-registry.md` — Canonical registry of 38+ artifacts with class, source, owner, lifecycle, and phase introduced (§10, §11, §24).
-
-**Basis:** SDD §24 (Phase 2: "Concrete repository directory/file structure — Populates §10 architecture into a layout").
+- Completed Phase 2 governance foundation:
+  - `standard/repository-constitution.md` (§10, §17, §40)
+  - `standard/repository-rules.md` (§10, §49)
+  - `standard/artifact-classification.md` (§11.1, §10.3)
+  - `standard/artifact-registry.md` (§11, §24)
 
 ## [0.3.0] — SDD Revision
 
 ### Added
-- Completion extension: appended architectural models §32–§41 (Engineering Mission Model, Engineering State Model, Engineering Operation Model, Engineering Decision Model, Engineering Impact Analysis Model, Engineering Comparison Model, Engineering Documentation Model, Repository Evolution Model, Engineering Integrity Rules, Repository Readiness Criteria).
+- Completion extension: appended architectural models §32–§41.
 - Full document consistency pass (terminology, IDs, RFC 2119 wording, references).
-
-**Basis:** Final Phase-1 Completion Order; §18 VS-1/VS-2 (MINOR increment + changelog).
 
 ## [0.2.0] — SDD Revision
 
 ### Added
-- Review extension: appended architectural models §25–§31 (Engineering Discovery Model, Evidence Confidence Model, Engineering Completion Criteria, Engineering Evidence Chain, Engineering Traceability Expansion, Reverse Engineering Architecture, Repository Knowledge Architecture).
-
-**Basis:** Engineering Review Order; §18 VS-1/VS-2 (MINOR increment + changelog).
+- Review extension: appended architectural models §25–§31.
 
 ## [0.1.0] — SDD Initial
 
 ### Added
 - Initial SDD with sections 1–24 and Appendices A–C.
-- Vision, Problem Statement, Objectives, Scope, Non-Goals, Stakeholders, Engineering Principles, Functional/Non-Functional Requirements, Repository Architecture, Artifact Architecture, Engineering Lifecycle, Stage Model, Knowledge Model, Review Model, Validation Model, Governance Model, Versioning Strategy, Extension Policy, Success Criteria, Risks, Assumptions, Constraints, Future Work.
-- Evidence Base (Appendix A), Glossary (Appendix B), Requirements Traceability Index (Appendix C).
-
-**Basis:** Phase 1 assignment.
 
 ---
 
